@@ -15,7 +15,7 @@ def apt_search2(city: str, max_rent: int, min_beds: int = 0, pets_allowed: bool 
         return (f'Welcome to GC Property Management! Looking up listings in {city} for {min_beds}\n'  # runs when true
                 f'bedroom apartments, all within the budget of ${max_rent} per month.')
     else:
-        return (f'Welcome to GC Property Management! Looking up listings in {city} for {min_beds}\n'  # runs when true
+        return (f'Welcome to GC Property Management! Looking up listings in {city} for {min_beds}\n'  # runs when false
                 f'bedroom apartments that allow pets, all within the budget of ${max_rent} per month.')
 
 
